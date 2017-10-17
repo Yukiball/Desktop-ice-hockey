@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+#paper{
+	height: 600px;
+	width: 450px;
+	position: absolute;
+	border: 10px solid;
+	background-color: rgba(255,255,255,0.8);
+}
+.hpaper{
+	display: inline-block;
+}
+.npaper{
+	display: none;
+}
+.newcanvas,.ballcanvas{
+	position: absolute;
+	border: 10px solid;
+	top: 0;
+	left: 0;
+}
+#paper div{
+	height: 100px;
+	width: 200px;
+	border-radius: 10px;
+	margin: 130px auto;
+	background-color:#2ecc71;
+	text-align: center;
+	font-size: 40px;
+	line-height: 100px;	
+	cursor: pointer;
+}
+#paper div span{
+	
+}
+#myCanvas{
+	border: 10px solid black;	
+}
+.round1{
+	background-color: #9b59b6;
+}
+.round2{
+	background-color: #e74c3c;
+}
+.round3{
+	background-color: #3498db;
+}
+.round4{
+	background-color: #2ecc71;
+}
+.round5{
+	background-color: #1abc9c;
+}
+.pp{
+	position: absolute;
+	left:0;
+	border: 10px solid red;
+}
