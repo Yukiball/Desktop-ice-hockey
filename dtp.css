@@ -33,11 +33,15 @@
 	line-height: 100px;	
 	cursor: pointer;
 }
-#paper div span{
-	
+#instruction{
+	display: inline-block;
+	position:absolute;
+	height: 620px;
+	line-height: 620px;
 }
 #myCanvas{
 	border: 10px solid black;	
+	margin:0 auto;
 }
 .round1{
 	background-color: #9b59b6;
