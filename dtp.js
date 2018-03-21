@@ -231,7 +231,7 @@ class init {
 	}
 	//回合
 	Round(round,score){
-		this.ctx.clearRect(this.wid/2-100,this.hei/2-50,150,40)
+		this.ctx.clearRect(this.wid/2-100,this.hei/2-50,250,40)
 		this.ctx.beginPath();
 		this.ctx.textAlign="center";
     	this.ctx.fillStyle = "rgba(255,255,255,0.8)";
